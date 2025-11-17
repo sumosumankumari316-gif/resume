@@ -44,41 +44,48 @@ body {
     list-style: none;
     gap: 2rem;
 }
+
 .nav-links a {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
+
 .nav-links a:hover {
-    background-color: rgb(255,255,255,0.1);
+    background-color: rgb(255, 255, 255, 0.1);
 }
+
 .box {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(url../images/pic.webp) center/cover;
-   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/pic.webp');
+
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color:white;
+    color: white;
 }
+
 .box-content h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 300;
     letter-spacing: 2px;
 }
-.box-content h4{
+
+.box-content h4 {
     font-size: 2rem;
     margin-top: 1rem;
     font-weight: 300;
 }
-.box-content p{
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      max-width: 600px;
+
+.box-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
 }
+
 .btn {
     padding: 1rem 2rem;
     text-decoration: none;
@@ -89,102 +96,120 @@ body {
     color: white;
     border: 2px solid;
 }
-.contact-button:hover{
+
+.contact-button:hover {
     background-color: white;
     color: #2c3e50;
 }
+
 .about {
     padding: 5rem 0;
     background-color: #f8f9fa;
 }
+
 .section-title {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
     color: #2c3e50;
 }
+
 .about-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     margin-bottom: 2rem;
 }
+
 .about-text ul {
     margin-top: 2rem;
 }
+
 .about-text li {
     font-size: 1.4rem;
     margin-bottom: 2rem;
     color: #555;
 }
-.about-img img{
-   height: 400px;
-   border-radius: 10px;
-   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+.about-img img {
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 .contact {
     padding: 5rem 0;
     background-color: #f8f9fa;
     margin-bottom: 0;
 }
-.contact-info{
+
+.contact-info {
     font-size: 1.4rem;
-     margin-top: 3rem;
+    margin-top: 3rem;
 }
+
 /* .contact-info {
     margin-top: 3rem;
 } */
 .contact-item {
     margin-bottom: 2rem;
     margin-top: 2rem;
-   
+
 }
-.personal-info h3{
-     font-size: 1.4rem;
-     color: #555;
+
+.personal-info h3 {
+    font-size: 1.4rem;
+    color: #555;
 }
+
 .personal-info p {
     font-size: 1.2rem;
     color: #555;
 }
+
 .educ-work p {
     text-align: center;
 }
-.educ-work h4{
+
+.educ-work h4 {
     font-size: 1.5rem;
     text-align: center;
     margin-top: 1rem;
 }
+
 #a {
     font-style: italic;
     color: #f5b700;
 }
+
 .two-box {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     margin-top: 1.5rem;
 }
-.edu-workexp{
-    
+
+.edu-workexp {
+
     height: 450px;
     width: 400px;
     border-radius: 10px;
     background-color: white;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: flex-start;
     gap: 10px;
     padding: 1.5rem;
 
 }
+
 .icon-circle {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color:#f5b700;
-     display: flex;
+    background-color: #f5b700;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -192,57 +217,66 @@ body {
 i {
     font-size: 30px;
 }
-.headline{
+
+.headline {
     font-size: 1.2rem;
     margin-top: 12px;
 }
+
 .headline ul {
     display: block;
 
 }
+
 .data {
     margin-top: 2.5rem;
     padding-left: 0;
-    margin-left: -30px; 
+    margin-left: -30px;
     font-size: 1.5rem;
 }
-.year{
+
+.year {
     font-size: 1.2rem;
 }
-.text{
+
+.text {
     margin-top: 0.5rem;
-    margin-left:-30px;
+    margin-left: -30px;
 }
+
 .text p {
     font-size: 0.8rem;
     margin-left: inherit;
 }
+
 .degree {
     margin-left: -25px;
 }
+
 .school {
     margin-left: -30px;
 }
+
 #skill {
     margin-left: -5px;
 }
-#post{
-   padding-left: 0;
-   margin-right: 80px;
+
+#post {
+    padding-left: 0;
+    margin-right: 80px;
 }
+
 .projects {
     padding: 5rem 0;
     background-color: #f8f9fa;
     margin-bottom: 0;
 }
+
 .project-content {
-    color:#555;
+    color: #555;
 }
+
 .project-content h3 {
     font-size: 1.5rem;
     font-style: bold;
 }
-
-
-
-
